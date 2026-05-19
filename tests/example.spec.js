@@ -1,4 +1,4 @@
-// @ts-check1111
+// comment added login page
 import { test, expect } from '@playwright/test';
 
 test('has title', async ({ page }) => {
@@ -7,7 +7,7 @@ test('has title', async ({ page }) => {
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
 });
-
+// test function testing the get started link on the playwright homepage. It clicks the link and checks if the installation heading is visible on the page.
 test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
